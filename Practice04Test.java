@@ -172,7 +172,7 @@ public class Practice04Test {
 				int [] copy = copyArray();
 				// b) Have the algorithm sort the copy ... while timing it.
 				long start = System.currentTimeMillis();
-				sort.sort(copy);
+				sort.insertionSort(copy);
 				// System.out.println("Sorting took: " + (System.currentTimeMillis() - start) + " ms.");
 				long total_time = System.currentTimeMillis() - start;
 				System.out.print(total_time + " ms.\t");
